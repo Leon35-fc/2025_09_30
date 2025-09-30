@@ -67,6 +67,7 @@ if(sum(totalShoppingCart) < 50){
   console.log("Il totale del carrello è: ", sum(totalShoppingCart) + 10)
 }
 */
+
 /* ESERCIZIO 6
   Stai lavorando su un sito di e-commerce. Oggi è il Black Friday e viene applicato il 20% su ogni prodotto.
   Modifica la risposta precedente includendo questa nuova promozione nell'algoritmo, determinando come prima se le spedizioni sono gratuite oppure no e e calcolando il totale.
@@ -79,14 +80,25 @@ if((sum(totalShoppingCart)*0.2)<50){
   console.log("Il totale scontato del carrello è: ", sum(totalShoppingCart) - sum(totalShoppingCart)*0.2 + 10)
 }
 */
+
 /* ESERCIZIO 7
   Crea tre variabili, e assegna un valore numerico a ciascuna di esse.
   Utilizzando un blocco condizionale, crea un algoritmo per ordinarle secondo il loro valore, dal più alto al più basso.
   Alla fine mostra il risultato in console.
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+/* SCRIVI QUI LA TUA RISPOSTA 
+*/
+let num1 = 8
+let num2 = 2
+let num3 = 5
 
+const array1 = [num1, num2, num3]
+array1.sort(function(a, b) {
+  return a - b;
+});
+
+console.log(array1)
 /* ESERCIZIO 8
   Crea un algoritmo per verificare che un valore fornito sia un numero oppure no (suggerimento: cerca su un motore di ricerca "typeof").
 */
